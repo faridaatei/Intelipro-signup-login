@@ -71,6 +71,7 @@ h2{
   margin: 30px auto;
 }
 
+
 .signup,
 .login{
   width: 50%;
@@ -109,7 +110,7 @@ h2{
   border: 2px solid #66FCF1;
 }
 
-.btn{
+/*.btn{
   width: 100%;
   background: #0B0C10;
   height: 60px;
@@ -121,6 +122,21 @@ h2{
   letter-spacing: 1px;
   cursor: pointer;
   margin-bottom: 30px;
+}*/
+
+p button{
+ width: 100%;
+  background: #0B0C10;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #66FCF1;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-bottom: 30px;
+
 }
 
 span a{
@@ -147,8 +163,8 @@ span a{
 
 
 
-/*styling Overview link*/
-.overview{
+styling Overview link
+/*.overview{
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -157,15 +173,15 @@ span a{
   padding: 15px 10px;
   background: #0B0C10;
   border-radius: 5px;
-}
+}*/
 
-.overview a{
+/*.overview a{
   text-decoration: none;
   color: #66FCF1;
   text-transform: capitalize;
   letter-spacing: 1px;
 }
-
+*/
 /*Styling overview nav bar*/
 
 
@@ -191,3 +207,11 @@ ul{
 .navbar-inverse .navbar-nav>li>a:hover{
   color: #66FCF1 !important;
 }
+
+
+canvas{
+  border: 1px solid black;
+  margin-left: 180px;
+  margin-top: 50px;
+}
+
